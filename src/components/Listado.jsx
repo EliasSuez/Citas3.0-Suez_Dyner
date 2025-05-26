@@ -1,3 +1,6 @@
+import React from 'react';
+import Cita from './Cita';
+
 function Listado({ citas, setCitas }) {
     const eliminarCita = (id) => {
       if (window.confirm('¿Eliminar esta cita?')) {
@@ -19,3 +22,4 @@ function Listado({ citas, setCitas }) {
     );
   }
   
+  export default Listado;

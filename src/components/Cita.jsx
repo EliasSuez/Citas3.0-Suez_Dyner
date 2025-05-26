@@ -2,7 +2,6 @@ import React from 'react';
 import './Cita.css';
 
 function Cita(props) {
-  // Recibís la función eliminarCita desde props y la llamás cuando clickeás
   return (
     <div className="cita">
       <p>Mascota: <span>{props.mascota}</span></p>
